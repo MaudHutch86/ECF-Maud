@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    border: solid 1 px black;
+    background-color: darkslategrey;
+    ;
+}
+
+main {
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    border: darkslateblue;
+    background-color: white;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    border: solid 1px black;
+    background-color: darkslategrey;
+}
+
+iframe {
+    height: 300px;
+    /*width: 100%;*/
+    position: relative;
+    left: 350px;
+}
+
+.tableau {
+    height: 100px;
+    width: 100%;
+    top: 20px;
+    left: 100px;
+    border: solid 1px black;
+}
+
+.biblio {
+    height: 500px;
+    width: 500px;
+}
+
+.supprimer {
+    height: 50px;
+    width: 50px;
+    background-color: papayawhip;
+    border: solid 1px black;
+}
+
+#infos {
+    height: 50px;
+    width: 100%;
+    border: solid 1 px black;
+}
+
+table,
+th,
+td {
+    height: 100px;
+    width: 1000px;
+    border: solid 1px black;
+    text-align: center;
+    background-color: darkkhaki;
+    margin-left: 100px;
+    ;
+
+
+}
+
+.boutonclick {
+    margin-top: 100px;
+    top: 50%;
+    left: 50%;
+
+}
+
+#boutonajouter {
+    height: 50px;
+    width: 100px;
+    visibility: inherit;
+}
+
+#sort {
+    height: 50px;
+    width: 100px;
+    display: flex;
+}
+
+#formulaire {
+    height: 50px;
+    width: 50px;
+    visibility: visible;
+
+}
+
+.messErreur {
+    background-color: red;
+    color: black;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.messSucces {
+    background-color: green;
+    color: black;
+    padding: 25px;
+    border-radius: 25px;
+}
+

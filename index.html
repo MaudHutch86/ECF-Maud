@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="app.css">
+    <title>Médiatèque</title>
+</head>
+
+<body>
+    <header id="headerBanner">
+        <div id="logo"></div>
+        <div>
+            <h1>My movie Library</h1>
+        </div>
+        <div id="menuPanel"></div>
+    </header>
+    <iframe id="frame" src="avatar.jpg" frameborder="0">
+        <h1 id="titre">La liste de films:</h1>
+    </iframe>
+    <div id="message">
+
+    </div>
+    <div class="boutonclick">
+        <button id="boutonajouter">Ajouter</button>
+        <form id="formulaire" action="">
+            <input id="inputtitre" placeholder="Titre" type="text">
+            <input id="inputannee" placeholder="Annee" type="text">
+            <input id="inputauteur" placeholder="Auteur" type="text"><br>
+        </form>
+    </div>
+
+    <div>
+        <select name="SortType" placeholder="Trier" id="sort">
+            <option value="annee">Année</option>
+            <option value="nom">Nom</option>
+        </select>
+    </div>
+    </main>
+
+    <main id="mainZone">
+        <div class="biblio">
+            <table>
+                <thead>
+                    <tr id="infos">
+                        <th>films</th>
+                        <th>Année</th>
+                        <th>Auteur</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tableau">
+                </tbody>
+            </table>
+        </div>
+
+        <script src="app.js"></script>
+</body>
+
+</html>
